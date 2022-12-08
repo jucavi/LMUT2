@@ -8,6 +8,7 @@ main {
     width: 50%;
     margin: auto;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     border: 6px solid white;
     background-color: #F3C892;
 }
