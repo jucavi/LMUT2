@@ -1,1 +1,78 @@
-HI!!!
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Formulario de Sorteo</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>¡¡Sorteamos una Cafetera Nespesso + 1 año de cápsulas!!</h1>
+            <p>Rellena los siguientes datos y ...¡mucha suerte!</p>
+            <p>Fecha del sorteo: 22/02/2022</p>
+        </header>
+
+        <form action="http://info@lmsgi_tarea2.es" method="POST">
+            <div class="datos-personales">
+                <label for="nombre" class="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="apellidos" class="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" required>
+            </div>
+
+            <div class="email">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <fieldset class="ingesta">
+                <legend>¿Cuántos cafés tomas al día?</legend>
+
+                <input type="radio" name="ingesta" id="ninguno" value="ninguno">
+                <label for="ninguno">Ninguno</label>
+
+                <input type="radio" name="ingesta" id="al-menos-dos" value="al-menos-dos">
+                <label for="al-menos-dos">1 o 2</label>
+
+                <input type="radio" name="ingesta" id="entre-dos-y-cinco" value="entre-dos-y-cinco">
+                <label for="entre-dos-y-cinco">Entre 2 y 5</label>
+
+                <input type="radio" name="ingesta" id="mas-de-cinco" value="mas-de-cinco">
+                <label for="mas-de-cinco">Más de 5</label>
+            </fieldset>
+
+            <fieldset class="eleccion">
+                <legend>¿Qué tipo de café prefieres?</legend>
+
+                <input type="checkbox" name="eleccion" id="solo" value="solo">
+                <label for="solo">Solo</label>
+
+                <input type="checkbox" name="eleccion" id="cortado" value="cortado">
+                <label for="cortado">Cortado</label>
+
+                <input type="checkbox" name="eleccion" id="con-leche" value="con-leche">
+                <label for="con-leche">Con leche</label>
+
+                <input type="checkbox" name="eleccion" id="americano" value="americano">
+                <label for="americano">Americano</label>
+            </fieldset>
+
+            <textarea name="info" id="info" rows="2" placeholder="Indicanos cual es la marca de tu cafetera actual y cúanto hace que la tienes."></textarea>
+
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar Formulario">
+            </div>
+        </form>
+
+        <div class="footer">
+            <p>Formulario para sorteo realizado por Juan Carlos.</p>
+            <a href="../index.html">Volver a la página principal</a>
+        </div>
+    </main>
+</body>
+</html>
