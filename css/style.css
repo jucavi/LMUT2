@@ -5,8 +5,8 @@ body {
 }
 
 main {
-   width: 90%;
-   margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
 header {
@@ -54,11 +54,11 @@ header {
 }
 
 blockquote {
-    width: 100%;
+    width: 90%;
     margin: auto;
-    padding-top: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
     text-align: center;
+    padding-top: 0.5rem;
 }
 
 cite {
@@ -67,7 +67,6 @@ cite {
 }
 
 .principal {
-    flex-direction: column;
     width: 60%;
     background-color: #F3C892;
     text-align: justify;
@@ -109,7 +108,7 @@ section {
 }
 
 .img-intro {
-    width: 100%;
+    height: 10rem;
 }
 
 .texto-intro p {
@@ -127,7 +126,7 @@ section {
 }
 
 .img-utilidad {
-    width: 100%;
+    height: 15rem;
     padding-top: 1rem;
 }
 
