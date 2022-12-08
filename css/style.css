@@ -50,6 +50,7 @@ header {
     width: 20%;
     color: white;
     font-size: 0.8rem;
+    text-align: center;
     padding: 0.5rem;
 }
 
@@ -57,13 +58,11 @@ blockquote {
     width: 90%;
     margin: auto;
     margin-bottom: 3rem;
-    text-align: center;
     padding-top: 0.5rem;
 }
 
 cite {
     display: block;
-    text-align: center;
 }
 
 .principal {
