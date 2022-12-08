@@ -161,3 +161,34 @@ footer {
 footer hr {
     border-color: white;
 }
+
+@media (max-width: 1650px) {
+    .img-intro {
+        flex: 0 0 17%;
+    }
+
+    .img-utilidad {
+        flex: 0 0 50%;
+        padding-top: 1rem;
+    }
+}
+
+@media  (max-width: 767px) {
+    .fluida {
+        flex-direction: column;
+    }
+
+    .texto-intro p {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+
+    .fluida-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .texto-utilidad p {
+        margin-top: 1rem;
+        padding-right: 0;
+    }
+}
