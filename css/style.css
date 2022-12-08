@@ -108,7 +108,7 @@ section {
 }
 
 .img-intro {
-    flex-basis: 30%;
+    flex: 0 0 15%;
 }
 
 .img-intro img {
@@ -130,7 +130,7 @@ section {
 }
 
 .img-utilidad {
-    flex-basis: 100%;
+    flex: 0 0 35%;
     padding-top: 1rem;
 }
 
