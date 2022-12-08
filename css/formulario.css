@@ -16,6 +16,7 @@ main {
 header {
     color: #146653;
     text-align: center;
+    padding: 1rem;
 }
 
 form {
